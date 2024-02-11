@@ -1,0 +1,31 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background: #1b6478;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.todo {
+  padding: 10px;
+}
+
+.singleItem {
+  background: #ccc;
+  margin: 5px;
+  padding: 10px;
+}
+
+.adder {
+  background: #f0ead6;
+  padding: 10px;
+  margin: 10px;
+}
