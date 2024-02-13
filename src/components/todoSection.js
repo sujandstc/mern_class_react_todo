@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { FaRegHandPointRight } from "react-icons/fa";
+import SingleTodo from "./singleTodo";
 // clear data
 // form and prevent default
 
@@ -66,15 +67,7 @@ const TodoSection = () => {
       {todos.map((el) => {
         return (
           <>
-            <div className="singleItem">
-              <FaRegHandPointRight
-                style={{
-                  marginRight: "100px",
-                }}
-              />
-
-              {el}
-            </div>
+            <SingleTodo datas={el} />
           </>
         );
       })}
